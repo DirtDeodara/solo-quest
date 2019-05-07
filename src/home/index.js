@@ -3,7 +3,7 @@ import api from '../services/api.js';
 
 const userSignUp = document.getElementById('user-sign-up');
 
-userSignUp.addEventListener('Click', function(event){
+userSignUp.addEventListener('click', function(event){
     event.preventDefault();
 
     const formData = new FormData(userSignUp);
