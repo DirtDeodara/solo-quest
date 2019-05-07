@@ -6,5 +6,6 @@ function makeUser(formData) {
         cash: 10
     };
     return user;
+    console.log('blah');
 }
 export default makeUser;

@@ -5,14 +5,15 @@ const name = document.getElementById('name');
 const role = document.getElementById('role');
 const hunger = document.getElementById('hunger');
 const cash = document.getElementById('cash');
+const avatar = document.getElementById('avatar');
 
 //initialize profile with user
 const user = api.getUser();
 
+
 //no user? dang, well, go back to sign up
 if(!user) {
     window.location = './';
-
 }
 
 //populate the profile
