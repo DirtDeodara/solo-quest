@@ -4,10 +4,8 @@ body {
     font-size: 2em;
 }
 header {
-    background-color: rgb(158, 156, 156);
+    /* background-color: rgb(158, 156, 156); */
     text-align: center;
-    /* display: flex;
-    align-items: center */
 }
 h1 {
     font-size: 80px;

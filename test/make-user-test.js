@@ -1,4 +1,4 @@
-import makeUser from '../home/make-user.js';
+import makeUser from '../src/home/make-user.js';
 const test = QUnit.test;
 
 QUnit.module('make user');
@@ -13,7 +13,8 @@ test('create user object from form data', (assert) => {
         name: 'gorgor',
         role: 'punk',
         hunger: 5,
-        cash: 10
+        fatigue: 5,
+        skill: null
     };
     //act
     const user = makeUser(formData);

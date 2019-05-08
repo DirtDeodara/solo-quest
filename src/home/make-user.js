@@ -2,10 +2,10 @@ function makeUser(formData) {
     const user = {
         name: formData.get('name'),
         role: formData.get('role'),
+        skill: formData.get('skill'),
         hunger: 5,
-        cash: 10
+        fatigue: 5
     };
     return user;
-    console.log('blah');
 }
 export default makeUser;

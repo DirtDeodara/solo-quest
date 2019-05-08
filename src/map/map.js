@@ -3,9 +3,11 @@ import api from '../services/api.js';
 //reference needed DOM elements
 const name = document.getElementById('name');
 const role = document.getElementById('role');
+const skill = document.getElementById('skill');
 const hunger = document.getElementById('hunger');
-const cash = document.getElementById('cash');
+const fatigue = document.getElementById('fatigue');
 const avatar = document.getElementById('avatar');
+// console.log(skill);
 
 //initialize profile with user
 const user = api.getUser();
@@ -20,5 +22,7 @@ if(!user) {
 name.textContent = user.name;
 // avatar.src = '../assts/avatars/' + user.role + 'Small.png';
 role.textContent = user.role;
+skill.textContent = user.skill;
 hunger.textContent = user.hunger;
-cash.textContent = user.cash;
+sobriety.textContent = user.sobriety;
+fatigue.textContent = user.fatigue;

@@ -1,5 +1,5 @@
-import api from '../services/api.js';
-const test = Qunit.test;
+import api from '../src/services/api.js';
+const test = QUnit.test;
 
 QUnit.module('api');
 api.storage = sessionStorage;
@@ -16,5 +16,5 @@ test('signUp sets user and returns on getUser', (assert) => {
     const result = api.getUser();
 
     //assert
-    asser.deepEqual(result, user);
+    assert.deepEqual(result, user);
 });
