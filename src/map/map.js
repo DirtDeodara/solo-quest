@@ -6,7 +6,7 @@ const role = document.getElementById('role');
 const skill = document.getElementById('skill');
 const hunger = document.getElementById('hunger');
 const fatigue = document.getElementById('fatigue');
-const avatar = document.getElementById('avatar');
+// const avatar = document.getElementById('avatar');
 // console.log(skill);
 
 //initialize profile with user
@@ -24,5 +24,4 @@ name.textContent = user.name;
 role.textContent = user.role;
 skill.textContent = user.skill;
 hunger.textContent = user.hunger;
-sobriety.textContent = user.sobriety;
 fatigue.textContent = user.fatigue;
