@@ -2,6 +2,7 @@ body {
     background-color: gray;
     font-family: 'Permanent Marker', cursive;
     font-size: 2em;
+    text-align: center;
 }
 header {
     /* background-color: rgb(158, 156, 156); */
