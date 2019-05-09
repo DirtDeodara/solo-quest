@@ -1,12 +1,12 @@
 
-const test = QUnit.test;
+// const test = QUnit.test;
 
-QUnit.module('create test link');
+// QUnit.module('create test link');
 
-test('create quest link', (assert) => {
-    //arrange
+// test('create quest link', (assert) => {
+//     //arrange
 
-    //act
-    
-    //assert
-});
+//     //act
+
+//     //assert
+// });
