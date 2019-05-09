@@ -11,6 +11,5 @@ submitIcon.addEventListener('click', function(event){
     const user = makeUser(formData);
     api.signUp(user);
 
-    console.log('hello');
     window.location = 'map.html';
 });
