@@ -1,3 +1,6 @@
 #thumb-icon {
     text-align: center;
 }
+input {
+    display: block;
+}

@@ -11,7 +11,7 @@ const avatar = document.getElementById('avatar');
 
 //initialize profile with user
 const user = api.getUser();
-console.log(user.role);
+
 
 //no user? dang, well, go back to sign up
 if(!user) {

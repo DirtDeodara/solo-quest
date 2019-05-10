@@ -11,9 +11,9 @@
 </head>
 <body>
     <header>
-        <h1>Load In</h1>
+        <h1 id="task">Load In</h1>
         <div class='profile'>
-            <img id="profile">
+            <img id="avatar">
             Name: <span id="name"></span>
             <br>
             Role: <span id="role"></span>
@@ -31,15 +31,16 @@
             Description displayed here.
         </p>
         <form id="quest-paths">
-            <fieldset>
+            <fieldset id="potential-paths">
             <legend>What will you do?</legend>
                 <p id="paths"></p>
             </fieldset>
-                <p id="thumb_icon">
-                    The time
-                    <img src="./assets/thumbsUp.png" alt="thumbs up icon" align="middle">
-                    is now!
-                </p>
+            <p id="thumb_icon">
+                The time
+                <img src="./assets/thumbsUp.png" alt="thumbs up icon" align="middle">
+                is now!
+            </p>
+            <button>Sumbit</button>
         </form>
         <section id="result" class="hidden">
                 <p id="result-description"></p>
