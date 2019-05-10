@@ -3,7 +3,7 @@ const api = {
     //used by testing  to control where api saves data
     storage: localStorage,
     //methods for reading and saving data
-    signUp(user) {
+    saveUser(user) {
         const json = JSON.stringify(user);
         api.storage.setItem('user', json);
     },
@@ -13,7 +13,7 @@ const api = {
         const user = JSON.parse(json);
         return user;
     },
-    getQuest() {
+    getQuests() {
         return questData;
     }
 };

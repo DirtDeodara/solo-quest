@@ -9,7 +9,7 @@ submitIcon.addEventListener('click', function(event){
 
     const formData = new FormData(userSignUp);
     const user = makeUser(formData);
-    api.signUp(user);
+    api.saveUser(user);
 
     window.location = 'map.html';
 });
