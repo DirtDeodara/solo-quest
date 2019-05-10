@@ -4,7 +4,7 @@ const loadIn = {
     id: 'loadIn',
     title: 'Load In',
     description: `The van is parked out front of the venue,
-    which is a bummer cus' you know your supposed to load in around back.
+    which is a bummer cus' you know you're supposed to load in around back.
     It would be some much closer to just load in the front door, though...
     One of the band members say, "Alright, it's time to load in the gear. 
     Lace up those boots, tighten that belt, and get to haulin'.
