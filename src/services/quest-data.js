@@ -1,6 +1,7 @@
 //i dont have this tied in yet. just wanted to be able to PR
 
 const loadIn = {
+    image: 'van.png',
     id: 'loadIn',
     title: 'Load In',
     description: `The van is parked out front of the venue,
@@ -43,6 +44,7 @@ const loadIn = {
 };
 
 const sellMerch = {
+    image: 'release.png',
     id: 'sell-merch',
     title: 'Sell Merch',
     description: `The band has a bunch of new merch to sell. Tapes, CDs, LPs and a bunch 
@@ -80,6 +82,7 @@ const sellMerch = {
 };
 
 const soundCheck = {
+    image: 'board.png',
     id: 'sound-check',
     title: 'Sound Check',
     description: `The sound-guy who usually works this venue hasn't shown up tonight 

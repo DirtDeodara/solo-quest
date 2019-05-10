@@ -3,7 +3,7 @@ function createQuestLink(quest) {
     link.classList.add('load-in-link');
 
     const image = document.createElement('img');
-    image.setAttribute('src', './assets/van.png');
+    image.setAttribute('src', './assets/' + quest.image);
 
     link.appendChild(image);
 
