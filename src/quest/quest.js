@@ -28,10 +28,10 @@ for(let index = 0; index < quest.choices.length; index++) {
     choices.appendChild(paths);
 }
 
-questPaths.addEventListener('submit', function(event){
-    event.preventDefault();
-    //get use choice
-    const formData = new FormData(questPaths);
-    // const choiceId = formData.get('path');
-});
+// questPaths.addEventListener('submit', function(event){
+//     event.preventDefault();
+//     //get use choice
+//     const formData = new FormData(questPaths);
+//     // const choiceId = formData.get('path');
+// });
     
