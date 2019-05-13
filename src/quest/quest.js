@@ -35,15 +35,3 @@ questPaths.addEventListener('submit', function(event){
     const choiceId = formData.get('path');
 });
     
-
-    // for(let i = 0; i < quest.choices.length; i++) {
-    //     const choice = quest.choices[i];
-    //     console.log(choiceId, 'this');
-    //     if(choice.id === choiceId) {
-    //         resultDescription.textContent = choice.result;
-    //         const user = api.getUser();
-    //         const updatedUser = scoreQuest(choice, user, quest);
-    //         api.saveUser(updatedUser);
-    //         loadProfile();
-    //     }
-    // }
