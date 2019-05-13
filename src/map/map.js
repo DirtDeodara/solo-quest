@@ -10,6 +10,6 @@ const nav = document.getElementById('quests');
 
 for(let i = 0; i < quests.length; i++) {
     const quest = quests[i];
-    const link= createQuestLink(quest);
+    const link = createQuestLink(quest);
     nav.appendChild(link);
 }

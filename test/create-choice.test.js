@@ -20,4 +20,4 @@ test('take a quest choice object and return the created DOM for that choice', (a
     const dom = createChoice(choice);
     //assert
     assert.deepEqual(dom.outerHTML, expected);
-})
+});

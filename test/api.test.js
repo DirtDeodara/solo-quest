@@ -25,10 +25,10 @@ test('returns list of quests', (assert) => {
     const expected = questData;
 
     //act
-    const quests = api.getQuests()
+    const quests = api.getQuests();
 
     //assert
-    assert.deepEqual(quests, expected)
+    assert.deepEqual(quests, expected);
 });
 
 test('take an ID and return the corresponding quest', (assert) => {

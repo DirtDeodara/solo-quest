@@ -1,5 +1,5 @@
 function createQuestLink(quest) {
-    const link =document.createElement('a');
+    const link = document.createElement('a');
     link.classList.add('load-in-link');
 
     const image = document.createElement('img');
